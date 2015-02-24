@@ -38,8 +38,11 @@ int main(){
 		printf("Enter initial height in Feet: ");
 		scanf("%lf", &startingHeight);
       
+      // This is essentially a calculus problem. Since Acceleration, initial velocity, 
+      //	and initial height is known, we can take two anti-derivatives to 
+      //	determine the Velocity and Position formulas:
       // Position function is y = -16.1t^2 + startingHeight
-      // Velocity function is y' = -32.2t
+      // Velocity function is y' = -32.2t + 0 
       // Acceleration function is y'' = -32.2
       // Y axis is height, X axis is time
       
